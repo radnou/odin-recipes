@@ -1,0 +1,11 @@
+#btnCM {
+    background: #000;
+    color: white;
+}
+#btnNCM {
+    background: yellow;
+}
+#btnNCM,#btnCM  {
+    font-size: 28px;
+    font-family:  Helvetica,"Times New Roman" ,sans-serif;
+}

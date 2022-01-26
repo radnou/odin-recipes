@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test CSS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="class">
-        div test class
-        <div class="second-class">
-            Div second class
-        </div>
+      div test class
+      <div class="second-class">Div second class</div>
     </div>
-    <div class="class second-class">
-        Div second class
-    </div>
+    <div class="class second-class">Div second class</div>
 
-    <div id="parent"> The parent
-        <div class="child">the child </div>
+    <div id="parent">
+      The parent
+      <div class="child">the child</div>
     </div>
-
-</body>
-<style>
+  </body>
+  <style>
     .class.second-class {
-        font-size: 15px;
+      font-size: 15px;
     }
 
-    .class>.second-class {
-        font-size: 24px;
+    .class > .second-class {
+      font-size: 24px;
     }
-    #parent{
-        color:red;
+    #parent {
+      color: red;
     }
     .child {
-        color:blue;
+      color: blue;
     }
-</style>
-
+  </style>
 </html>
