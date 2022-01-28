@@ -1,0 +1,17 @@
+.container {
+    height: 140px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    justify-content: center; /* align items across the main axis */
+    align-items: center; /* align items across the cross axis */
+    gap : 8px;
+}
+.item{
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+  
+}
